@@ -6,44 +6,48 @@
   <title>Sano, Radiante y Abundante</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Lora&display=swap" rel="stylesheet">
   <style>
-    body {
+    body, html {
       margin: 0;
+      padding: 0;
+      height: 100%;
       font-family: 'Lora', serif;
-      background: linear-gradient(180deg, #e7dfd8 0%, #c2d4db 100%);
-      background-attachment: fixed;
-      color: #2e3a40;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px;
     }
-    .container {
-      background-color: rgba(255, 255, 255, 0.9);
-      padding: 60px 40px;
-      max-width: 720px;
-      border-radius: 20px;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    .hero {
+      background: url('https://raw.githubusercontent.com/matiasmendezmeyer/radiantesano/main/ChatGPT%20Image%20Jul%2022%2C%202025%20at%2009_53_08%20PM.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+      color: #fff;
+    }
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 20px;
     }
     h1 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 3.2em;
       margin-bottom: 0.3em;
-      color: #2e3a40;
     }
     h2 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 1.8em;
       font-style: italic;
       margin-bottom: 1.2em;
-      color: #4a6670;
     }
     p, li {
       font-size: 1.15em;
       line-height: 1.7;
       margin: 0.8em 0;
-      color: #333;
     }
     .btn {
       background-color: #b9936c;
@@ -64,10 +68,9 @@
       transform: translateY(-2px);
     }
     .info {
-      font-size: 1em;
-      color: #4e5d62;
       margin-top: 2em;
       line-height: 1.8;
+      font-size: 1em;
     }
     ul {
       list-style: disc inside;
@@ -79,30 +82,32 @@
       h1 { font-size: 2.4em; }
       h2 { font-size: 1.4em; }
       .btn { font-size: 1.1em; padding: 14px 28px; }
-      .container { padding: 35px 20px; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Sano, Radiante y Abundante</h1>
-    <p><strong>MASTERCLASS TRANSFORMADORA –<br>22 DE AGOSTO. 5:55 PM (CDMX)</strong></p>
-    <h2>Tres claves ancestrales para elevar tu energía y prosperidad</h2>
-    <p>En esta experiencia online de 3 horas descubrirás:</p>
-    <ul>
-      <li>Cómo purificar cuerpo, mente y emociones con prácticas sencillas pero poderosas.</li>
-      <li>Los hábitos diarios que activan tu radiancia y alinean tu biología con su propósito.</li>
-      <li>La mentalidad y herramientas para abrirte a la abundancia consciente.</li>
-    </ul>
-    <a href="https://wa.me/5219841675309?text=Yo%20también%20quiero%20ser%20Sano%2C%20Radiante%20y%20Abundante!" class="btn">Reserva tu lugar</a>
-    <div class="info">
-      Inversión (precio preventa): $39 USD<br>
-      Incluye:<br>
-      • Workbook descargable<br>
-      • Replay disponible por 5 días<br>
-      Fecha: Jueves 22 de agosto<br>
-      Hora: 5:55 PM (hora CDMX)<br>
-      Plataforma: Google Meet
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Sano, Radiante y Abundante</h1>
+      <p><strong>MASTERCLASS TRANSFORMADORA –<br>22 DE AGOSTO. 5:55 PM (CDMX)</strong></p>
+      <h2>Tres claves ancestrales para elevar tu energía y prosperidad</h2>
+      <p>En esta experiencia online de 3 horas descubrirás:</p>
+      <ul>
+        <li>Cómo purificar cuerpo, mente y emociones con prácticas sencillas pero poderosas.</li>
+        <li>Los hábitos diarios que activan tu radiancia y alinean tu biología con su propósito.</li>
+        <li>La mentalidad y herramientas para abrirte a la abundancia consciente.</li>
+      </ul>
+      <a href="https://wa.me/5219841675309?text=Yo%20también%20quiero%20ser%20Sano%2C%20Radiante%20y%20Abundante!" class="btn">Reserva tu lugar</a>
+      <div class="info">
+        Inversión (precio preventa): $44 USD<br>
+        Incluye:<br>
+        • Workbook descargable<br>
+        • Replay disponible por 5 días<br>
+        Fecha: Jueves 22 de agosto<br>
+        Hora: 5:55 PM (hora CDMX)<br>
+        Plataforma: Google Meet
+      </div>
     </div>
   </div>
 </body>
